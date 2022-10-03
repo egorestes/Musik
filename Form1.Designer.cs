@@ -48,7 +48,7 @@
             // 
             this.ChromiumContainerPanel.Location = new System.Drawing.Point(0, 29);
             this.ChromiumContainerPanel.Name = "ChromiumContainerPanel";
-            this.ChromiumContainerPanel.Size = new System.Drawing.Size(1167, 775);
+            this.ChromiumContainerPanel.Size = new System.Drawing.Size(1008, 775);
             this.ChromiumContainerPanel.TabIndex = 0;
             // 
             // ControlPanel
@@ -61,13 +61,13 @@
             this.ControlPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.ControlPanel.Location = new System.Drawing.Point(0, 0);
             this.ControlPanel.Name = "ControlPanel";
-            this.ControlPanel.Size = new System.Drawing.Size(1167, 33);
+            this.ControlPanel.Size = new System.Drawing.Size(1008, 33);
             this.ControlPanel.TabIndex = 0;
             // 
             // VkButton
             // 
             this.VkButton.Image = ((System.Drawing.Image)(resources.GetObject("VkButton.Image")));
-            this.VkButton.Location = new System.Drawing.Point(1118, 4);
+            this.VkButton.Location = new System.Drawing.Point(967, 3);
             this.VkButton.Name = "VkButton";
             this.VkButton.Size = new System.Drawing.Size(37, 27);
             this.VkButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -78,7 +78,7 @@
             // YandexButton
             // 
             this.YandexButton.Image = ((System.Drawing.Image)(resources.GetObject("YandexButton.Image")));
-            this.YandexButton.Location = new System.Drawing.Point(1117, 4);
+            this.YandexButton.Location = new System.Drawing.Point(967, 3);
             this.YandexButton.Name = "YandexButton";
             this.YandexButton.Size = new System.Drawing.Size(38, 26);
             this.YandexButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -129,7 +129,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1167, 804);
+            this.ClientSize = new System.Drawing.Size(1008, 804);
             this.Controls.Add(this.ControlPanel);
             this.Controls.Add(this.ChromiumContainerPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;

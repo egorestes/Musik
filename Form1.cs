@@ -26,6 +26,7 @@ namespace Musik
             cefSettings.Locale = "ru";
             cefSettings.PersistSessionCookies = true;
 
+
             Cef.Initialize((CefSettingsBase)cefSettings);
 
             this.chromium = new ChromiumWebBrowser(yandexUrl);
@@ -94,7 +95,7 @@ namespace Musik
             this.chromium = new ChromiumWebBrowser(yandexUrl);
             this.ChromiumContainerPanel.Controls.Add((Control)this.chromium);
 
-            this.Text = "Яндекс.Музка";
+            this.Text = "Яндекс.Музыка";
         }
 
         private void VkButton_Click(object sender, EventArgs e)
@@ -107,7 +108,7 @@ namespace Musik
             this.chromium = new ChromiumWebBrowser(vkUrl);
             this.ChromiumContainerPanel.Controls.Add((Control)this.chromium);
 
-            this.Text = "VK.Музка";
+            this.Text = "VK.Музыка";
         }
     }
 }
